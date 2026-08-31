@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/app.css" />
+    <script src="/js/auth.js" defer></script>
+    <script src="/js/index.js" defer></script>
+    <title>Habit Tracker</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+  </head>
+  <body class="flex flex-col min-h-dvh bg-white text-slate-900">
+    <header class="flex justify-center mb-3">
+      <div
+        class="flex m-3 justify-between items-center w-full p-3 max-w-5xl bg-primary rounded-3xl"
+      >
+        <div class="flex items-center gap-2">
+          <img
+            class="text-black h-7"
+            src="./images/icons8-heartbeat-50.png"
+            alt=""
+          />
+          <a class="font-bold">Habit Tracker</a>
+        </div>
+
+        <a
+          href="/login.html"
+          class="text-sm sm:w-auto font-bold text-white px-3 py-2 bg-secondary hover:bg-secondary/50 cursor-pointer select-none rounded-2xl"
+          >Log In</a
+        >
+      </div>
+    </header>
+    <!--Main of the section-->
+    <main class="flex-1 flex flex-col mx-3 items-center">
+      <section class="flex flex-col w-full max-w-5xl md:flex-row gap-5">
+        <!--start at flex-col when screen size is Larger than small, then make it to flex row-->
+        <div
+          class="flex flex-col justify-center flex-1 rounded-2xl shadow-lg bg-primary py-10"
+        >
+          <p class="px-6 text-4xl font-bold">Build Life-long Habits</p>
+          <p class="mt-7 me-9 ms-6 text-sm justify-start">
+            Track your daily habits, build routines and unlock your full
+            potential 🔥
+          </p>
+          <div class="flex w-full ms-6">
+            <a
+              href="/register.html"
+              class="mt-7 text-sm sm:w-auto font-bold text-white px-7 py-2 bg-blue-400 hover:bg-blue-400/50 cursor-pointer select-none rounded-xl"
+            >
+              Get Started
+            </a>
+          </div>
+        </div>
+        <div class="flex-1 flex justify-center h-56 md:h-100">
+          <img
+            src="./images/bee.png"
+            alt="bee-image"
+            class="animate-[slideInRight_1s_ease-out]"
+          />
+        </div>
+      </section>
+      <section class="flex flex-row justify-center mt-6">
+        <h1 class="font-bold">Start Building Powerful Habits Today!</h1>
+      </section>
+      <!--shadow boxes-->
+      <section class="w-full p-3 max-w-5xl mt-5">
+        <div class="flex flex-col sm:flex-row gap-2 w-full h-auto sm:h-32">
+          <div
+            class="flex-1 aspect-square bg-secondary p-3 shadow-lg rounded-2xl flex flex-col items-center justify-center gap-2"
+          >
+            <p class="flex flex-row justify-center text-white">Add Tasks</p>
+            <img class="h-10 w-10" src="./images/546686.png" alt="note" />
+          </div>
+          <div
+            class="flex-1 aspect-square bg-secondary p-3 shadow-lg rounded-2xl flex flex-col items-center justify-center gap-2"
+          >
+            <p class="flex flex-row justify-center text-white">
+              Track Progress
+            </p>
+            <img
+              class="h-10 w-10"
+              src="./images/images-removebg-preview.png"
+              alt="time"
+            />
+          </div>
+          <div
+            class="flex-1 aspect-square bg-secondary p-3 shadow-lg rounded-2xl flex flex-col items-center justify-center gap-2"
+          >
+            <p class="flex flex-row justify-center text-white">Hit Goals</p>
+            <img
+              class="h-10 w-10"
+              src="./images/flame-computer-icons-combustibility-fire-icon-11553450993s9ps3pbwgg-removebg-preview.png"
+              alt="streaks"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="w-full max-w-5xl mt-10 px-3 mb-5">
+        <h2 class="text-2xl font-bold mb-4">Frequently Asked Questions</h2>
+
+        <div class="divide-y divide-surface border-t border-b border-surface">
+          <div class="py-4">
+            <h3 class="font-semibold">What habits are good for tracking?</h3>
+            <p class="mt-2 text-sm text-slate-600">
+              Anything you want to build consistency around — drinking water,
+              exercise, reading, sleep, or even small daily routines like making
+              your bed.
+            </p>
+          </div>
+
+          <div class="py-4">
+            <h3 class="font-semibold">Is this free to use?</h3>
+            <p class="mt-2 text-sm text-slate-600">
+              Yes, Habit Tracker is completely free to use.
+            </p>
+          </div>
+
+          <div class="py-4">
+            <h3 class="font-semibold">Is it suitable for all ages?</h3>
+            <p class="mt-2 text-sm text-slate-600">
+              Yes, anyone can use Habit Tracker to build better daily routines.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="p-3 flex flex-col sm:flex-row gap-3 items-center sm:justify-between bg-primary"
+    >
+      <a href="/" class="cursor-pointer select-none font-bold">Habit Tracker</a>
+      <p>2026 Habit Tracker Pty Ltd</p>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1"
+    type="module"
+  ></script>
+</html>
