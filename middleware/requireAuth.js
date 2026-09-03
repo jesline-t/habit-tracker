@@ -3,8 +3,6 @@ const jwt = require("jsonwebtoken");
 function requireAuth(req, res, next) {
   const authorization = req.headers.authorization;
 
-  console.log(authorization)
-
   if (!authorization || !authorization.startsWith("Bearer ")){
     //always attach bearer (is a token) infront/start when sending authorizations
     return res.status(401).json({ message: "Not authorized." });
