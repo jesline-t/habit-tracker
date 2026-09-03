@@ -315,7 +315,7 @@ function isAllCompleted() {
 
 async function updateCompletion(habitId, completed) {
   const previousValue = isCompleted(habitId);
-  const date = selectedDate;
+  const date = selectedDate; 
 
   setCompletion(habitId, completed);
   renderHabits(habitId);

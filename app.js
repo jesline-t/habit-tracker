@@ -5,13 +5,14 @@ const habitRoutes = require("./routes/habitRoutes.JS");
 const dailyEntryRoutes = require("./routes/dailyEntryRoutes");
 const requireAuth = require("./middleware/requireAuth");
 const authRoutes = require("./routes/authRoutes");
+const path = require("path");
 require("dotenv").config();
 
 const app = express();
 const PORT = 3000;
 
 app.use(express.json());
-app.use(express.static("public"));
+app.use(express.static(path.join(__dirname, "public")));
 
 async function startApp() {
   try {
