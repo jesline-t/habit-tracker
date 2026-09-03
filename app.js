@@ -1,6 +1,6 @@
 const express = require("express");
 const connectDatabase = require("./config/database");
-const habitRoutes = require("./routes/habitRoutes");
+const habitRoutes = require("./routes/habitsRoutes");
 const dailyEntryRoutes = require("./routes/dailyEntryRoutes");
 const requireAuth = require("./middleware/requireAuth");
 const authRoutes = require("./routes/authRoutes");
