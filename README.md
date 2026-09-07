@@ -18,3 +18,12 @@ To run the applicaion in development mode use `npm run dev`
 ### Production
 
 To run the application in production mode use `npm start`
+
+## Deployed Application
+
+habit-tracker-three-psi-61.vercel.app
+
+## Documentation
+
+Documentation can be found here:
+check out the [Doucmentation](DOCS.md)

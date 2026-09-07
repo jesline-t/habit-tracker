@@ -12,7 +12,7 @@
   <body class="flex flex-col min-h-dvh bg-white text-slate-900">
     <header class="flex justify-center mb-3">
       <div
-        class="flex m-3 justify-between items-center w-full p-3 max-w-5xl bg-primary rounded-3xl"
+        class="flex m-3 justify-between items-center w-full p-3 max-w-5xl bg-primary rounded-3xl border-secondary border-2"
       >
         <div class="flex items-center gap-2">
           <img
@@ -35,10 +35,12 @@
       <section class="flex flex-col w-full max-w-5xl md:flex-row gap-5">
         <!--start at flex-col when screen size is Larger than small, then make it to flex row-->
         <div
-          class="flex flex-col justify-center flex-1 rounded-2xl shadow-lg bg-primary py-10"
+          class="flex flex-col justify-center flex-1 rounded-2xl shadow-lg bg-primary py-10 border-secondary border-2"
         >
-          <p class="px-6 text-4xl font-bold">Build Life-long Habits</p>
-          <p class="mt-7 me-9 ms-6 text-sm justify-start">
+          <p class="px-6 text-4xl font-bold font-mono">
+            Build Life-long Habits
+          </p>
+          <p class="mt-7 me-9 ms-6 text-sm justify-start font-mono">
             Track your daily habits, build routines and unlock your full
             potential 🔥
           </p>
@@ -51,16 +53,26 @@
             </a>
           </div>
         </div>
-        <div class="flex-1 flex justify-center h-56 md:h-100">
+        <div
+          class="flex-1 flex justify-center h-56 md:h-100 border-2 rounded-2xl border-gray-500"
+        >
           <img
-            src="./images/bee.png"
+            src="./images/winkbee.jpg"
             alt="bee-image"
             class="animate-[slideInRight_1s_ease-out]"
           />
         </div>
       </section>
-      <section class="flex flex-row justify-center mt-6">
-        <h1 class="font-bold">Start Building Powerful Habits Today!</h1>
+      <section class="flex flex-col items-center w-full max-w-5xl mt-6">
+        <h1 class="font-bold text-2xl font-mono text-center my-4">
+          Start Building Powerful Habits Today!
+        </h1>
+        <div class="flex flex-col justify-center">
+          <img
+            src="./images/Screenshot 2026-09-07 at 10.11.00 am.png"
+            alt="screenshot"
+          />
+        </div>
       </section>
       <!--shadow boxes-->
       <section class="w-full p-3 max-w-5xl mt-5">
@@ -125,6 +137,10 @@
         </div>
       </section>
     </main>
+
+    <div class="flex justify-center">
+      <img class="w-64 h-48;" src="./images/bee(2)image.jpg" alt="bees" />
+    </div>
     <footer
       class="p-3 flex flex-col sm:flex-row gap-3 items-center sm:justify-between bg-primary"
     >

@@ -385,7 +385,4 @@ Feedback can be sent to my email address
 - Maintaining tests
 - Updating documentation
 
-## Documentation
 
-Documentation can be found here:
-check out the [Doucmentation](DOCS.md)
